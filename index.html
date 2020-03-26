@@ -3,7 +3,7 @@
  * @Description: Intro to Javascript
  * @Date: 2020-03-24 14:23:19
  * @LastEditors: Tianyi Lu
- * @LastEditTime: 2020-03-25 21:31:55
+ * @LastEditTime: 2020-03-26 07:54:49
  -->
 <!DOCTYPE html>
 
@@ -20,17 +20,11 @@
 </head>
 
 <body>
-	<div class="container" style="text-align: center;">
-		<h5 style="padding-top: 70px;">Press "E" to choose left, Press "I" to choose right, Press "Space" to start</h5>
-		<div class="row" style="padding-top: 270px;">
-			<div class="col" id="left">
-				<h4>High Cal</h4>
-			</div>
-			<div class="col" id="word">
-			</div>
-			<div class="col" id="right">
-				<h4>Low Cal</h4>
-			</div>
+	<div class="container" id="page" style="text-align: center;">
+		<div id="namepage" style="padding-top: 300px;">
+			<h4>Please Enter Your Name</h4>
+			<input type="text" id="name" placeholder="anonymous"/>
+			<input type="button" value="confirm" onclick="getName()">
 		</div>
 	</div>
 
